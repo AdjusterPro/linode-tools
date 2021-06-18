@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# For scheduled cloning of Linodes; e.g., at 2am
+#
+
 usage()
 {
   echo 'Usage: clone.bash <ID of original Linode> <name of new Linode> [<size of new Linode>]'
